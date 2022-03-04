@@ -42,7 +42,7 @@ p, span, li ,a{
     background-size: cover;
     background-position: center;
 }
-.slide{
+.section{
     width: auto;
     height: 100vh;
     position: relative;
@@ -117,7 +117,13 @@ p, span, li ,a{
     font-size: 13px;
     letter-spacing: 1px;
 }
-
+.fp-tableCell {
+        vertical-align: top;
+}
+.upper h2,.upper p, .lower .btn1,.lower .btn2, .ower .arrow{
+    opacity: 0;
+    visibility: hidden;
+}
 @media only screen and (max-width:990px){
     .logo {
         width: 100px;
